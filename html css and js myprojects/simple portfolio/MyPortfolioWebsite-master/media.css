@@ -1,0 +1,70 @@
+@media screen and (max-width:1441px) {
+    #mainFooter{
+        margin-top: 19rem;
+    }
+}
+@media screen and (max-width:1281px) {
+    #mainFooter{
+        margin-top: 22rem;
+    }
+}
+
+@media screen and (max-width:1025px) {
+
+    .about_container {
+        margin: 5% 6%;
+    }
+}
+@media screen and (max-width:901px) {
+    .about_container {
+        margin: 17% 6%;
+    }
+    .about_imgage img {
+
+        width: 24rem;
+     
+    }
+    #mainFooter{
+        margin-top: 22rem;
+    }
+    .cont_certificate li, .cont_project li {
+        font-size: 1.2rem;
+        line-height: 1.7;
+    }
+    .hero_container {
+        margin: 5% 10%;
+    }
+    .hero_details h1 {
+        font-size: 3rem;
+    }
+    .about_details h2 {
+        font-size: 2rem;
+       
+    }
+    nav ul li a{
+        font-size: 1.3REM;
+    }
+}
+@media screen and (max-width:769px){
+    .hamburgermenu{
+        display: initial;
+    
+        position: relative;
+        z-index: 5;
+    }
+    nav ul {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0rem;
+        background: #000;
+        left: 100%;
+    }
+    
+    .active {
+        transition: 300ms ease;
+        left: 0;
+        
+    }
+}
